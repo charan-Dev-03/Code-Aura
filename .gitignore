@@ -1,0 +1,34 @@
+# Java compiled files
+*.class
+bin/
+build/
+target/
+
+# Tomcat generated files
+work/
+temp/
+logs/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets.properties
+application-local.properties
+
+# Database backups and dumps
+*.sql.bak
+*.dump
+
+# Local Eclipse server settings
+.settings/org.eclipse.wst.server.core.prefs

@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Student Status</title>
+</head>
+<body>
+
+    <h2>Test Student Account Status</h2>
+
+    <form action="UpdateStudentStatusServlet" method="post">
+
+        <label>Student ID:</label>
+        <input type="number" name="id" value="1" required>
+
+        <br><br>
+
+        <label>Account Status:</label>
+
+        <select name="status">
+            <option value="ACTIVE">ACTIVE</option>
+            <option value="INACTIVE">INACTIVE</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Update Status</button>
+
+    </form>
+
+</body>
+</html>
